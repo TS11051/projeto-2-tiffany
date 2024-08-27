@@ -7,76 +7,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do livro perdido</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="img/cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <p>Um dia Sophia estava lendo o seu livro favorito na biblioteca da cidade até que quando ela chegou em uma parte do livro estava escrito assim quem encontrar esse terá a missão de achar o outro livro desse  quem achar poderá passar o dia comigo e junto com esse texto tinha algumas pistas</p>
+            <button class="btn-proximo" data-proximo="1">Biblioteca</button>
+            <button class="btn-proximo" data-proximo="2">Cafeteria</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <p>Ela começou sua busca na própria biblioteca. Foi procurar o outro livro na mesma prateleira onde havia encontrado o primeiro. Nessa prateleira, havia vários livros da mesma autora. Quando ela puxou um livro para verificar se havia alguma pista, um papelzinho caiu de dentro. Nele, estava escrito que ela deveria ir ao museu.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no museu</button>
             <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>Então, ela decidiu sair da biblioteca e foi até uma cafeteria mencionada no livro. Lá, encontrou uma pista que a orientava a ir até a praça central da cidade e procurar um papel perto da igreja que fica lá.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a igreja</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a cidade</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>No museu, ela encontra uma carta antiga dentro de um livro exposto. A carta tem uma escrita enigmática que menciona um local específico na cidade, como uma estátua ou um banco em um parque e ela notou que naonão era na cidade dela e sim na cidade vizinha.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Serra Azul</button>
         </div>
 
         <div class="passo" id="passo-4">
             <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <p>Você decide que a aventura é grande demais e volta para casa, mas fica imaginando como seria ter passado o dia com ela.</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Ao investigar a igreja, ela descobre um mapa parcial escondido atrás de um quadro. O mapa indica a localização da cidade vizinha,onde ela deveria procurar mais informações.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Serra Azul</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Explorando a cidade você encontra uma pista mas não te leva a nada.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a igreja</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>Em Serra Azul, as pistas começam a ficar mais claras e você se depara com uma antiga livraria escondida em uma rua calma.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar na livraria</button>
+            <button class="btn-proximo" data-proximo="10">Não entrar na livraria </button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>De volta às igrejas, você finalmente encontra o mapa da cidade vizinha.Então você foi para Serra Azul.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Serra Azul</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Dentro, entre livros empoeirados, encontra um diário com anotações que revelam a localização do segundo livro.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir para cidade perdida</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>Ela continuou a  andar pela cidade mas não encontrou nada è resolveu ir na livraria.</p>
+            <button class="btn-proximo" data-proximo="12">Ir para a livraria</button>
         </div>
-
+            <p>As pistas leva Sophia a um antigo jardim escondido na cidade. No centro do jardim, há uma pequena fonte coberta de musgo. Ao examinar a fonte, ela descobre uma gaveta secreta embutida na pedra. Dentro da gaveta, encontra o segundo livro que ela tanto procurou.</p>
         <div class="passo" id="passo-11">
             <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+        </p>Ela continuou a  andar pela cidade mas não encontrou nada è resolveu ir na livraria.
         </div>
 
         <div class="passo" id="passo-12">
